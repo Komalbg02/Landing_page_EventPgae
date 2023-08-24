@@ -1,0 +1,143 @@
+/* Reset default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e6f635;
+    color:#000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* About section styles */
+.about {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/* Speakers section styles */
+.speakers {
+    background-color: #f1d8ef;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.speaker {
+    margin-bottom: 40px;
+}
+
+.speaker img {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    margin-bottom: 10px;
+}
+
+.speaker h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.speaker p {
+    font-size: 16px;
+    color: #0a1406;
+}
+
+/* Schedule section styles */
+.schedule {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.schedule h2 {
+    
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.schedule ul {
+    background-color: rgb(201, 248, 248);
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+
+.schedule li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Registration section styles */
+.registration {
+    background-color: #f09fa4;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.registration h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.registration p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    font-size: 14px;
+}
